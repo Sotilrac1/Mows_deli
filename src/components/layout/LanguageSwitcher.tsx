@@ -3,20 +3,15 @@
 import { useLocale } from 'next-intl';
 import { usePathname, useRouter } from 'next/navigation';
 
-const getNextPathname = (locale: string, pathname: string) => {
-  if (locale === 'fr') {
-    const normalizedPath = pathname === '/fr' ? '/' : pathname.replace(/^\/fr/, '');
-    return normalizedPath === '' ? '/' : normalizedPath;
+const getNextPathname = (nextLocale: string, pathname: string) => {
+  if (nextLocale === 'fr') {
+    // Switching TO French — strip the /en prefix
+    const stripped = pathname.replace(/^\/en/, '');
+    return stripped === '' ? '/' : stripped;
   }
-
-  if (pathname === '/') {
-    return '/en';
-  }
-
-  if (pathname.startsWith('/en')) {
-    return pathname;
-  }
-
+  // Switching TO English — add /en prefix
+  if (pathname === '/') return '/en';
+  if (pathname.startsWith('/en')) return pathname;
   return `/en${pathname}`;
 };
 

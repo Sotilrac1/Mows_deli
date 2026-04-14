@@ -63,6 +63,12 @@
       ]
     }
   },
+  "menu": {
+    "pageTitle": "La Carte",
+    "pageSubtitle": "Découvrez nos sandwichs signature, nos planches de charcuterie et fromages, ainsi que nos sélections de cave.",
+    "unavailableLabel": "Indisponible",
+    "sectionNavAriaLabel": "Navigation des sections de la carte"
+  },
   "meta": {
     "homeTitle": "Mow's Deli | Deli New York à Toulouse",
     "homeDescription": "Mow's Deli, deli et épicerie fine à Toulouse. Sandwichs, charcuterie et vins dans une ambiance de quartier.",

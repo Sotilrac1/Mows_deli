@@ -63,6 +63,12 @@
       ]
     }
   },
+  "menu": {
+    "pageTitle": "Menu",
+    "pageSubtitle": "Explore our signature sandwiches, charcuterie and cheese boards, and a curated bottle selection.",
+    "unavailableLabel": "Unavailable",
+    "sectionNavAriaLabel": "Menu section navigation"
+  },
   "meta": {
     "homeTitle": "Mow's Deli | New York deli in Toulouse",
     "homeDescription": "Mow's Deli, a deli and fine grocery in Toulouse. Sandwiches, charcuterie, and wines in a neighborhood atmosphere.",
