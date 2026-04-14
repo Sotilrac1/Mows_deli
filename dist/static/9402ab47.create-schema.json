@@ -1,0 +1,200 @@
+[
+  {
+    "fields": [
+      {
+        "options": {
+          "source": "titleFr"
+        },
+        "validation": [
+          {
+            "level": "error",
+            "rules": [
+              {
+                "flag": "custom"
+              },
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ]
+          }
+        ],
+        "name": "id",
+        "type": "slug",
+        "title": "Identifiant"
+      },
+      {
+        "validation": [
+          {
+            "level": "error",
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ]
+          }
+        ],
+        "name": "titleFr",
+        "type": "string",
+        "title": "Titre (français)"
+      },
+      {
+        "validation": [
+          {
+            "level": "error",
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ]
+          }
+        ],
+        "name": "titleEn",
+        "type": "string",
+        "title": "Title (English)"
+      },
+      {
+        "name": "orderRank",
+        "type": "number",
+        "title": "Ordre d'affichage"
+      }
+    ],
+    "name": "menuSection",
+    "type": "document",
+    "title": "Section du menu"
+  },
+  {
+    "fields": [
+      {
+        "validation": [
+          {
+            "level": "error",
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ]
+          }
+        ],
+        "name": "nameFr",
+        "type": "string",
+        "title": "Nom (français)"
+      },
+      {
+        "validation": [
+          {
+            "level": "error",
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ]
+          }
+        ],
+        "name": "nameEn",
+        "type": "string",
+        "title": "Name (English)"
+      },
+      {
+        "name": "descriptionFr",
+        "type": "text",
+        "title": "Description (français)"
+      },
+      {
+        "name": "descriptionEn",
+        "type": "text",
+        "title": "Description (English)"
+      },
+      {
+        "validation": [
+          {
+            "level": "error",
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ]
+          }
+        ],
+        "name": "price",
+        "type": "number",
+        "title": "Prix (€)"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "name": "image",
+        "type": "image",
+        "title": "Photo"
+      },
+      {
+        "validation": [
+          {
+            "level": "error",
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ]
+          }
+        ],
+        "to": [
+          {
+            "type": "menuSection"
+          }
+        ],
+        "name": "section",
+        "type": "reference"
+      },
+      {
+        "of": [
+          {
+            "options": {
+              "list": [
+                "vegetarian",
+                "vegan",
+                "gluten-free"
+              ]
+            },
+            "type": "string"
+          }
+        ],
+        "name": "dietary",
+        "type": "array",
+        "title": "Régimes alimentaires"
+      },
+      {
+        "initialValue": true,
+        "validation": [
+          {
+            "level": "error",
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ]
+          }
+        ],
+        "name": "available",
+        "type": "boolean",
+        "title": "Disponible"
+      },
+      {
+        "hidden": true,
+        "name": "orderRank",
+        "type": "number",
+        "title": "orderRank"
+      }
+    ],
+    "name": "menuItem",
+    "type": "document"
+  }
+]

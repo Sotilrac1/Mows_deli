@@ -42,10 +42,8 @@ export const menuItem = defineType({
     defineField({
       name: 'section',
       title: 'Section',
-      type: 'string',
-      options: {
-        list: ['sandwichs', 'charcuterie', 'fromages', 'accompagnements', 'desserts', 'vins-bieres', 'composez'],
-      },
+      type: 'reference',
+      to: [{ type: 'menuSection' }],
       validation: (Rule) => Rule.required(),
     }),
     defineField({

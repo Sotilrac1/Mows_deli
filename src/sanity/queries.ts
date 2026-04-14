@@ -2,7 +2,7 @@ export const menuSectionsQuery = `*[_type == "menuSection"] | order(orderRank as
   "id": id.current,
   titleFr,
   titleEn,
-  "items": *[_type == "menuItem" && section == ^.id.current] | order(orderRank asc) {
+  "items": *[_type == "menuItem" && section._ref == ^._id] | order(orderRank asc) {
     _id,
     nameFr, nameEn,
     descriptionFr, descriptionEn,
