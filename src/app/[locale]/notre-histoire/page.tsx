@@ -20,6 +20,14 @@ export const generateMetadata = async ({ params }: AboutPageProps) => {
   return {
     title: tMeta('aboutTitle'),
     description: tMeta('aboutDescription'),
+    alternates: {
+      canonical: locale === 'fr' ? '/notre-histoire' : '/en/notre-histoire',
+      languages: {
+        fr: '/notre-histoire',
+        'en-US': '/en/notre-histoire',
+        'x-default': '/notre-histoire',
+      },
+    },
   };
 };
 

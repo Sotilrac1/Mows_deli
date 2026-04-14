@@ -6,6 +6,24 @@ type WinesPageProps = {
   params: Promise<{ locale: string }>;
 };
 
+export const generateMetadata = async ({ params }: WinesPageProps) => {
+  const { locale } = await params;
+  const tMeta = await getTranslations({ locale, namespace: 'meta' });
+
+  return {
+    title: tMeta('winesTitle'),
+    description: tMeta('winesDescription'),
+    alternates: {
+      canonical: locale === 'fr' ? '/vins-bieres' : '/en/vins-bieres',
+      languages: {
+        fr: '/vins-bieres',
+        'en-US': '/en/vins-bieres',
+        'x-default': '/vins-bieres',
+      },
+    },
+  };
+};
+
 const getLocalizedText = (locale: string, frenchValue: string, englishValue: string) => {
   return locale === 'fr' ? frenchValue : englishValue;
 };

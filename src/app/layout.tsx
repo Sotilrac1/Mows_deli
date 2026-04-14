@@ -14,6 +14,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr" className="h-full antialiased">
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+      </head>
       <body className="min-h-full">{children}</body>
     </html>
   );

@@ -15,6 +15,14 @@ export const generateMetadata = async ({ params }: MenuPageProps) => {
   return {
     title: tMeta('menuTitle'),
     description: tMeta('menuDescription'),
+    alternates: {
+      canonical: locale === 'fr' ? '/menu' : '/en/menu',
+      languages: {
+        fr: '/menu',
+        'en-US': '/en/menu',
+        'x-default': '/menu',
+      },
+    },
   };
 };
 

@@ -4,6 +4,24 @@ type EpiceriePageProps = {
   params: Promise<{ locale: string }>;
 };
 
+export const generateMetadata = async ({ params }: EpiceriePageProps) => {
+  const { locale } = await params;
+  const tMeta = await getTranslations({ locale, namespace: 'meta' });
+
+  return {
+    title: tMeta('epicerieTitle'),
+    description: tMeta('epicerieDescription'),
+    alternates: {
+      canonical: locale === 'fr' ? '/epicerie' : '/en/epicerie',
+      languages: {
+        fr: '/epicerie',
+        'en-US': '/en/epicerie',
+        'x-default': '/epicerie',
+      },
+    },
+  };
+};
+
 export default async function EpiceriePage({ params }: EpiceriePageProps) {
   const { locale } = await params;
   const tEpicerie = await getTranslations({ locale, namespace: 'epicerie' });

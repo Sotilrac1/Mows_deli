@@ -1,5 +1,10 @@
 import { siteConfig } from '@/data/site';
 
+export const metadata = {
+  title: `Mentions légales | ${siteConfig.name}`,
+  description: `Informations légales et RGPD pour ${siteConfig.name}.`,
+};
+
 export default async function MentionsLegalesPage() {
   return (
     <div className="mx-auto max-w-4xl space-y-10 px-6 py-16">

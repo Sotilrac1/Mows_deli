@@ -1,5 +1,6 @@
+import type { Metadata } from 'next';
 import { NextIntlClientProvider, hasLocale } from 'next-intl';
-import { getMessages, setRequestLocale } from 'next-intl/server';
+import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { Courier_Prime, Inter, Playfair_Display } from 'next/font/google';
 
@@ -28,6 +29,30 @@ type LocaleLayoutProps = Readonly<{
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
 }>;
+
+export const generateMetadata = async ({ params }: LocaleLayoutProps): Promise<Metadata> => {
+  const { locale } = await params;
+  const tMeta = await getTranslations({ locale, namespace: 'meta' });
+
+  return {
+    title: tMeta('homeTitle'),
+    description: tMeta('homeDescription'),
+    openGraph: {
+      title: tMeta('homeTitle'),
+      description: tMeta('homeDescription'),
+      images: ['/images/og-image.jpg'],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: tMeta('homeTitle'),
+      description: tMeta('homeDescription'),
+      images: ['/images/og-image.jpg'],
+    },
+    icons: {
+      icon: '/favicon.ico',
+    },
+  };
+};
 
 export default async function LocaleLayout({ children, params }: LocaleLayoutProps) {
   const { locale } = await params;

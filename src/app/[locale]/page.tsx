@@ -8,6 +8,24 @@ type HomePageProps = {
   params: Promise<{ locale: string }>;
 };
 
+export const generateMetadata = async ({ params }: HomePageProps) => {
+  const { locale } = await params;
+  const tMeta = await getTranslations({ locale, namespace: 'meta' });
+
+  return {
+    title: tMeta('homeTitle'),
+    description: tMeta('homeDescription'),
+    alternates: {
+      canonical: locale === 'fr' ? '/' : '/en',
+      languages: {
+        fr: '/',
+        'en-US': '/en',
+        'x-default': '/',
+      },
+    },
+  };
+};
+
 const getLocalizedHref = (locale: string, path: string) => {
   if (locale === 'fr') {
     return path;
