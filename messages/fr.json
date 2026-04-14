@@ -10,10 +10,57 @@
   },
   "home": {
     "hero": {
+      "eyebrow": "Toulouse, France",
       "title": "Le goût d'un vrai deli new-yorkais à Toulouse",
       "subtitle": "Sandwichs signatures, charcuterie fine et produits d'épicerie sélectionnés avec soin.",
       "ctaMenu": "Voir la carte",
       "ctaFindUs": "Nous trouver"
+    },
+    "hoursStrip": {
+      "line": "Mardi - Samedi · 10h-19h · Toulouse"
+    },
+    "highlights": {
+      "title": "Ce que nous faisons",
+      "discover": "Découvrir →",
+      "cards": [
+        {
+          "title": "Sandwichs & Pastrami",
+          "description": "Nos classiques new-yorkais préparés minute, avec des pains choisis et des sauces maison."
+        },
+        {
+          "title": "Charcuterie & Fromages",
+          "description": "Une sélection de planches à partager, entre produits français de caractère et esprit deli."
+        },
+        {
+          "title": "Vins & Bières",
+          "description": "Des bouteilles de producteurs et des bières artisanales à emporter ou à savourer sur place."
+        }
+      ]
+    },
+    "aboutTeaser": {
+      "title": "Une histoire de quartier et de goût",
+      "paragraphOne": "Mow's Deli est né de l'envie de réunir l'énergie d'un deli new-yorkais et la générosité toulousaine.",
+      "paragraphTwo": "Notre équipe prépare des assiettes sincères, compose des étagères d'épicerie vivantes et accueille chacun comme un voisin.",
+      "cta": "Notre histoire →"
+    },
+    "featured": {
+      "title": "À la carte"
+    },
+    "reviews": {
+      "items": [
+        {
+          "quote": "Les sandwichs sont incroyables, et l'accueil donne envie de revenir chaque semaine.",
+          "name": "Camille R."
+        },
+        {
+          "quote": "Une vraie ambiance de deli de quartier, avec une sélection cave très pointue.",
+          "name": "Julien M."
+        },
+        {
+          "quote": "Produits excellents, service chaleureux, adresse déjà incontournable à Toulouse.",
+          "name": "Sarah D."
+        }
+      ]
     }
   },
   "meta": {
@@ -28,6 +75,8 @@
     "tagline": "Deli new-yorkais et épicerie fine à Toulouse",
     "addressLabel": "Adresse",
     "hoursLabel": "Horaires",
+    "hoursPlaceholder": "Mardi - Samedi · 10h-19h",
+    "linksLabel": "Navigation",
     "followUs": "Suivez-nous",
     "legal": "Mentions légales",
     "rights": "Tous droits réservés."

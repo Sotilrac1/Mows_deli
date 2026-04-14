@@ -10,10 +10,57 @@
   },
   "home": {
     "hero": {
+      "eyebrow": "Toulouse, France",
       "title": "The taste of a true New York deli in Toulouse",
       "subtitle": "Signature sandwiches, fine charcuterie, and carefully sourced grocery products.",
       "ctaMenu": "View menu",
       "ctaFindUs": "Find us"
+    },
+    "hoursStrip": {
+      "line": "Tuesday - Saturday · 10am-7pm · Toulouse"
+    },
+    "highlights": {
+      "title": "What we do",
+      "discover": "Discover →",
+      "cards": [
+        {
+          "title": "Sandwiches & Pastrami",
+          "description": "Our New York classics made to order with carefully chosen breads and house-made sauces."
+        },
+        {
+          "title": "Charcuterie & Cheeses",
+          "description": "Boards to share, blending bold French products with the spirit of a neighborhood deli."
+        },
+        {
+          "title": "Wines & Beers",
+          "description": "Independent bottles and craft beers for takeaway, pairing, or enjoying in the deli."
+        }
+      ]
+    },
+    "aboutTeaser": {
+      "title": "A story of neighborhood and flavor",
+      "paragraphOne": "Mow's Deli was built to combine New York deli energy with the warmth of Toulouse.",
+      "paragraphTwo": "Our team serves honest plates, curates lively grocery shelves, and welcomes everyone like a local.",
+      "cta": "Our story →"
+    },
+    "featured": {
+      "title": "On the menu"
+    },
+    "reviews": {
+      "items": [
+        {
+          "quote": "The sandwiches are incredible, and the welcome makes you want to come back every week.",
+          "name": "Camille R."
+        },
+        {
+          "quote": "A true neighborhood deli atmosphere, with a sharp and thoughtful bottle selection.",
+          "name": "Julien M."
+        },
+        {
+          "quote": "Excellent products, warm service, already a must-visit address in Toulouse.",
+          "name": "Sarah D."
+        }
+      ]
     }
   },
   "meta": {
@@ -28,6 +75,8 @@
     "tagline": "New York deli and fine grocery in Toulouse",
     "addressLabel": "Address",
     "hoursLabel": "Opening hours",
+    "hoursPlaceholder": "Tuesday - Saturday · 10am-7pm",
+    "linksLabel": "Navigation",
     "followUs": "Follow us",
     "legal": "Legal notice",
     "rights": "All rights reserved."

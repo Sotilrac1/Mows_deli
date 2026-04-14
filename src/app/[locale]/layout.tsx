@@ -5,6 +5,8 @@ import { Courier_Prime, Inter, Playfair_Display } from 'next/font/google';
 
 import { siteConfig } from '@/data/site';
 import { defaultLocale, locales } from '@/i18n';
+import { Footer } from '@/components/layout/Footer';
+import { Navbar } from '@/components/layout/Navbar';
 
 const playfairDisplay = Playfair_Display({
   subsets: ['latin'],
@@ -61,7 +63,11 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
       className={`${playfairDisplay.variable} ${inter.variable} ${courierPrime.variable} min-h-full bg-brand-cream text-brand-black`}
     >
       <NextIntlClientProvider locale={locale} messages={messages}>
-        {children}
+        <div className="flex min-h-screen flex-col">
+          <Navbar locale={locale} />
+          <main className="flex-1">{children}</main>
+          <Footer locale={locale} />
+        </div>
       </NextIntlClientProvider>
       <script
         type="application/ld+json"
