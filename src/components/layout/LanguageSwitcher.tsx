@@ -1,7 +1,7 @@
 'use client';
 
 import { useLocale } from 'next-intl';
-import { usePathname, useRouter } from 'next/navigation';
+import { usePathname } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
 
 const languages = [
@@ -30,7 +30,6 @@ const getTargetPath = (targetLocale: (typeof languages)[number]['locale'], pathn
 export const LanguageSwitcher = () => {
   const locale = useLocale();
   const pathname = usePathname();
-  const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
   const wrapperRef = useRef<HTMLDivElement>(null);
 
@@ -62,26 +61,23 @@ export const LanguageSwitcher = () => {
       </button>
 
       {isOpen ? (
-        <div className="absolute top-full right-0 z-50 mt-2 min-w-[160px] rounded-none border border-brand-black/10 bg-white shadow-lg">
-          {languages.map((language) => {
+        <div className="absolute top-full right-0 z-50 mt-2 min-w-[180px] rounded-none border border-brand-black/20 bg-white shadow-xl">
+          {languages.map((language, index) => {
             const isActive = language.locale === locale;
 
             return (
-              <button
+              <a
                 key={language.locale}
-                type="button"
-                onClick={() => {
-                  router.push(getTargetPath(language.locale, pathname));
-                  setIsOpen(false);
-                }}
-                className={`flex w-full items-center gap-3 px-4 py-3 text-left font-sans text-sm text-brand-black transition hover:bg-brand-cream ${
-                  isActive ? 'font-medium' : ''
-                }`}
+                href={getTargetPath(language.locale, pathname)}
+                onClick={() => setIsOpen(false)}
+                className={`flex w-full items-center gap-3 px-4 py-3 font-sans text-sm font-medium text-brand-black no-underline transition-colors hover:bg-brand-cream ${
+                  isActive ? 'bg-brand-cream/60' : ''
+                } ${index > 0 ? 'border-t border-brand-black/10' : ''}`}
               >
                 <span className="text-lg">{language.flag}</span>
-                <span>{language.label}</span>
-                {isActive ? <span className="ml-auto">✓</span> : null}
-              </button>
+                <span className="tracking-wide">{language.label}</span>
+                {isActive ? <span className="ml-auto text-brand-black">✓</span> : null}
+              </a>
             );
           })}
         </div>
