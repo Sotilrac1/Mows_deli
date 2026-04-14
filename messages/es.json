@@ -1,0 +1,197 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "menu": "Carta",
+    "story": "Nuestra historia",
+    "epicerie": "Ultramarinos",
+    "winesBeers": "Vinos y Cervezas",
+    "contact": "Contacto",
+    "legal": "Aviso legal"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Toulouse, Francia",
+      "title": "El sabor de un auténtico deli neoyorquino en Toulouse",
+      "subtitle": "Sándwiches de autor, charcutería fina y productos de ultramarinos seleccionados con cuidado.",
+      "ctaMenu": "Ver la carta",
+      "ctaFindUs": "Encontrarnos"
+    },
+    "hoursStrip": {
+      "line": "Martes - Sábado · 10:00-19:00 · Toulouse"
+    },
+    "highlights": {
+      "title": "Lo que hacemos",
+      "discover": "Descubrir →",
+      "cards": [
+        {
+          "title": "Sándwiches y Pastrami",
+          "description": "Nuestros clásicos neoyorquinos preparados al momento, con panes seleccionados y salsas caseras."
+        },
+        {
+          "title": "Charcutería y Quesos",
+          "description": "Una selección de tablas para compartir, entre productos franceses con carácter y espíritu deli."
+        },
+        {
+          "title": "Vinos y Cervezas",
+          "description": "Botellas de productores y cervezas artesanas para llevar o disfrutar en el local."
+        }
+      ]
+    },
+    "aboutTeaser": {
+      "title": "Una historia de barrio y sabor",
+      "paragraphOne": "Mow&apos;s Deli nació del deseo de unir la energía de un deli neoyorquino con la generosidad de Toulouse.",
+      "paragraphTwo": "Nuestro equipo prepara platos sinceros, compone estanterías de ultramarinos vivas y recibe a cada persona como a un vecino.",
+      "cta": "Nuestra historia →"
+    },
+    "featured": {
+      "title": "En la carta"
+    },
+    "reviews": {
+      "items": [
+        {
+          "quote": "Los sándwiches son increíbles y la acogida dan ganas de volver cada semana.",
+          "name": "Camille R."
+        },
+        {
+          "quote": "Un auténtico ambiente de deli de barrio, con una selección de bodega muy cuidada.",
+          "name": "Julien M."
+        },
+        {
+          "quote": "Productos excelentes, servicio cercano, una dirección ya imprescindible en Toulouse.",
+          "name": "Sarah D."
+        }
+      ]
+    }
+  },
+  "menu": {
+    "pageTitle": "Carta",
+    "pageSubtitle": "Descubra nuestros sándwiches de autor, nuestras tablas de charcutería y quesos, y nuestras selecciones de bodega.",
+    "unavailableLabel": "No disponible",
+    "sectionNavAriaLabel": "Navegación de secciones de la carta"
+  },
+  "about": {
+    "title": "Nuestra historia",
+    "story": {
+      "paragraph1": "Hemos imaginado Mow&apos;s Deli como un puente entre Nueva York y Toulouse, con ganas de compartir recetas honestas, generosas y llenas de carácter.",
+      "paragraph2": "Nos inspiraron los mostradores de barrio donde se viene tanto a comer como a conversar, mantener costumbres y descubrir nuevos sabores.",
+      "paragraph3": "Hemos construido un concepto de ultramarinos finos a nuestra manera, con productos seleccionados de artesanos y casas que trabajan con exigencia y sinceridad.",
+      "paragraph4": "Hemos elegido la calidad en cada etapa, del pan al último condimento, para ofrecer una experiencia cálida y constante durante todo el año."
+    },
+    "philosophy": {
+      "items": [
+        {
+          "title": "Calidad",
+          "text": "Seleccionamos ingredientes sólidos y sabrosos, preparados con rigor cada día."
+        },
+        {
+          "title": "Procedencia",
+          "text": "Priorizamos productores identificados y circuitos cortos siempre que sea posible."
+        },
+        {
+          "title": "Convivialidad",
+          "text": "Cultivamos un ambiente sencillo, vivo y acogedor, desde el almuerzo hasta el aperitivo."
+        }
+      ]
+    },
+    "cta": "Venga a visitarnos"
+  },
+  "contact": {
+    "title": "Contacto",
+    "infoTitle": "Cómo encontrarnos",
+    "hoursTitle": "Horarios",
+    "hoursSummary": "Martes - Sábado · 10:00-19:00 · Toulouse",
+    "googleMapsLink": "Ver en Google Maps",
+    "hours": {
+      "days": {
+        "monday": "Lunes",
+        "tuesday": "Martes",
+        "wednesday": "Miércoles",
+        "thursday": "Jueves",
+        "friday": "Viernes",
+        "saturday": "Sábado",
+        "sunday": "Domingo"
+      }
+    },
+    "form": {
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "message": "Mensaje",
+      "submit": "Enviar",
+      "success": "¡Mensaje enviado!",
+      "error": "Se ha producido un error. Por favor, inténtelo de nuevo."
+    }
+  },
+  "epicerie": {
+    "title": "Ultramarinos",
+    "intro": "Seleccionamos productos de ultramarinos que cuentan una historia de sabor, entre imprescindibles neoyorquinos y saber hacer francés.",
+    "categories": [
+      {
+        "title": "Importaciones Americanas",
+        "description": "Referencias de culto difíciles de encontrar en otros lugares, elegidas por su autenticidad.",
+        "products": ["Pepinillos de Brooklyn", "Mostaza deli", "Bagels artesanales"]
+      },
+      {
+        "title": "Charcutería y Quesos",
+        "description": "Una selección de mostrador para componer sus tablas en casa.",
+        "products": ["Pastrami loncheado", "Comté curado", "Salchichón seco"]
+      },
+      {
+        "title": "Conservas y Condimentos",
+        "description": "Esenciales bien hechos para completar su cocina del día a día.",
+        "products": ["Pepinillos caseros", "Salsa BBQ ahumada", "Relish artesanal"]
+      },
+      {
+        "title": "Ultramarinos Dulces",
+        "description": "Dulces para el final de la comida y pausas golosas con carácter.",
+        "products": ["Cookies de centeno", "Mermeladas de temporada", "Brownie de chocolate negro"]
+      }
+    ],
+    "cta": {
+      "title": "Venga a descubrir nuestra selección en tienda"
+    }
+  },
+  "wines": {
+    "title": "Vinos y Cervezas",
+    "intro": "Construimos una bodega viva, pensada para acompañar la carta y revelar maridajes directos, del mediodía a la noche.",
+    "wineListTitle": "Selección de Vinos",
+    "beerListTitle": "Selección de Cervezas",
+    "pairings": [
+      {
+        "title": "Pastrami + Cabernet Franc",
+        "note": "Un maridaje estructurado y especiado que acompaña la intensidad del pastrami."
+      },
+      {
+        "title": "Reuben + IPA",
+        "note": "El amargor controlado de la IPA equilibra la suavidad del Reuben."
+      },
+      {
+        "title": "Tabla de Quesos + Vino Naranja",
+        "note": "Un dúo con textura y aroma, perfecto para prolongar la experiencia."
+      }
+    ]
+  },
+  "meta": {
+    "homeTitle": "Mow&apos;s Deli | Deli neoyorquino en Toulouse",
+    "homeDescription": "Mow&apos;s Deli, deli y ultramarinos finos en Toulouse. Sándwiches, charcutería y vinos en un ambiente de barrio.",
+    "aboutTitle": "Nuestra historia | Mow&apos;s Deli",
+    "aboutDescription": "Descubra la historia de Mow&apos;s Deli, entre inspiración neoyorquina y espíritu de barrio en Toulouse.",
+    "menuTitle": "Carta | Mow&apos;s Deli",
+    "menuDescription": "Descubra los sándwiches, la charcutería y las selecciones de temporada de Mow&apos;s Deli.",
+    "epicerieTitle": "Ultramarinos | Mow&apos;s Deli",
+    "epicerieDescription": "Descubra nuestra selección de ultramarinos finos entre productos americanos y saber hacer local.",
+    "winesTitle": "Vinos y Cervezas | Mow&apos;s Deli",
+    "winesDescription": "Explore nuestra selección de vinos naturales y cervezas artesanas pensada para la carta del deli.",
+    "contactTitle": "Contacto | Mow&apos;s Deli",
+    "contactDescription": "Encuentre Mow&apos;s Deli en Toulouse: dirección, horarios y contacto."
+  },
+  "footer": {
+    "tagline": "Deli neoyorquino y ultramarinos finos en Toulouse",
+    "addressLabel": "Dirección",
+    "hoursLabel": "Horarios",
+    "hoursPlaceholder": "Martes - Sábado · 10:00-19:00",
+    "linksLabel": "Navegación",
+    "followUs": "Síganos",
+    "legal": "Aviso legal",
+    "rights": "Todos los derechos reservados."
+  }
+}

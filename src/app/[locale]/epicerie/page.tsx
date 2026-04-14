@@ -12,10 +12,13 @@ export const generateMetadata = async ({ params }: EpiceriePageProps) => {
     title: tMeta('epicerieTitle'),
     description: tMeta('epicerieDescription'),
     alternates: {
-      canonical: locale === 'fr' ? '/epicerie' : '/en/epicerie',
+      canonical:
+        locale === 'fr' ? '/epicerie' : locale === 'en' ? '/en/epicerie' : locale === 'de' ? '/de/epicerie' : '/es/epicerie',
       languages: {
         fr: '/epicerie',
-        'en-US': '/en/epicerie',
+        en: '/en/epicerie',
+        de: '/de/epicerie',
+        es: '/es/epicerie',
         'x-default': '/epicerie',
       },
     },

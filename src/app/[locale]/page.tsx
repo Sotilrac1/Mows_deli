@@ -16,10 +16,12 @@ export const generateMetadata = async ({ params }: HomePageProps) => {
     title: tMeta('homeTitle'),
     description: tMeta('homeDescription'),
     alternates: {
-      canonical: locale === 'fr' ? '/' : '/en',
+      canonical: locale === 'fr' ? '/' : locale === 'en' ? '/en' : locale === 'de' ? '/de' : '/es',
       languages: {
         fr: '/',
-        'en-US': '/en',
+        en: '/en',
+        de: '/de',
+        es: '/es',
         'x-default': '/',
       },
     },

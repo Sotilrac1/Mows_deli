@@ -14,10 +14,19 @@ export const generateMetadata = async ({ params }: WinesPageProps) => {
     title: tMeta('winesTitle'),
     description: tMeta('winesDescription'),
     alternates: {
-      canonical: locale === 'fr' ? '/vins-bieres' : '/en/vins-bieres',
+      canonical:
+        locale === 'fr'
+          ? '/vins-bieres'
+          : locale === 'en'
+            ? '/en/vins-bieres'
+            : locale === 'de'
+              ? '/de/vins-bieres'
+              : '/es/vins-bieres',
       languages: {
         fr: '/vins-bieres',
-        'en-US': '/en/vins-bieres',
+        en: '/en/vins-bieres',
+        de: '/de/vins-bieres',
+        es: '/es/vins-bieres',
         'x-default': '/vins-bieres',
       },
     },

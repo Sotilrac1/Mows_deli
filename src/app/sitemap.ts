@@ -18,6 +18,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return routes.flatMap((route) => {
     const frPath = route.path;
     const enPath = route.path === '' ? '/en' : `/en${route.path}`;
+    const dePath = route.path === '' ? '/de' : `/de${route.path}`;
+    const esPath = route.path === '' ? '/es' : `/es${route.path}`;
 
     return [
       {
@@ -28,6 +30,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       },
       {
         url: `${siteConfig.url}${enPath}`,
+        lastModified: now,
+        changeFrequency: route.changeFrequency,
+        priority: route.priority,
+      },
+      {
+        url: `${siteConfig.url}${dePath}`,
+        lastModified: now,
+        changeFrequency: route.changeFrequency,
+        priority: route.priority,
+      },
+      {
+        url: `${siteConfig.url}${esPath}`,
         lastModified: now,
         changeFrequency: route.changeFrequency,
         priority: route.priority,

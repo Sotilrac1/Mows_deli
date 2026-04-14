@@ -17,10 +17,12 @@ export const generateMetadata = async ({ params }: ContactPageProps) => {
     title: tMeta('contactTitle'),
     description: tMeta('contactDescription'),
     alternates: {
-      canonical: locale === 'fr' ? '/contact' : '/en/contact',
+      canonical: locale === 'fr' ? '/contact' : locale === 'en' ? '/en/contact' : locale === 'de' ? '/de/contact' : '/es/contact',
       languages: {
         fr: '/contact',
-        'en-US': '/en/contact',
+        en: '/en/contact',
+        de: '/de/contact',
+        es: '/es/contact',
         'x-default': '/contact',
       },
     },

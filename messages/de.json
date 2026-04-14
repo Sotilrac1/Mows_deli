@@ -1,0 +1,197 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "menu": "Speisekarte",
+    "story": "Unsere Geschichte",
+    "epicerie": "Feinkost",
+    "winesBeers": "Weine & Biere",
+    "contact": "Kontakt",
+    "legal": "Impressum"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Toulouse, Frankreich",
+      "title": "Der Geschmack eines echten New Yorker Delis in Toulouse",
+      "subtitle": "Signature-Sandwiches, feine Charcuterie und mit Sorgfalt ausgewählte Feinkostprodukte.",
+      "ctaMenu": "Zur Speisekarte",
+      "ctaFindUs": "Uns finden"
+    },
+    "hoursStrip": {
+      "line": "Dienstag - Samstag · 10:00-19:00 · Toulouse"
+    },
+    "highlights": {
+      "title": "Was wir machen",
+      "discover": "Entdecken →",
+      "cards": [
+        {
+          "title": "Sandwiches & Pastrami",
+          "description": "Unsere New-York-Klassiker werden frisch zubereitet, mit ausgewählten Broten und hausgemachten Saucen."
+        },
+        {
+          "title": "Charcuterie & Käse",
+          "description": "Eine Auswahl an Platten zum Teilen, zwischen charaktervollen französischen Produkten und Deli-Geist."
+        },
+        {
+          "title": "Weine & Biere",
+          "description": "Flaschen von Produzenten und Craft-Biere zum Mitnehmen oder vor Ort genießen."
+        }
+      ]
+    },
+    "aboutTeaser": {
+      "title": "Eine Geschichte von Nachbarschaft und Geschmack",
+      "paragraphOne": "Mow&apos;s Deli entstand aus dem Wunsch, die Energie eines New Yorker Delis mit der Großzügigkeit von Toulouse zu verbinden.",
+      "paragraphTwo": "Unser Team bereitet ehrliche Teller zu, gestaltet lebendige Feinkostregale und begrüßt jeden wie einen Nachbarn.",
+      "cta": "Unsere Geschichte →"
+    },
+    "featured": {
+      "title": "Auf der Karte"
+    },
+    "reviews": {
+      "items": [
+        {
+          "quote": "Die Sandwiches sind unglaublich, und der Empfang macht Lust, jede Woche wiederzukommen.",
+          "name": "Camille R."
+        },
+        {
+          "quote": "Eine echte Deli-Atmosphäre im Viertel, mit einer sehr präzisen Flaschenauswahl.",
+          "name": "Julien M."
+        },
+        {
+          "quote": "Ausgezeichnete Produkte, herzlicher Service, bereits eine unverzichtbare Adresse in Toulouse.",
+          "name": "Sarah D."
+        }
+      ]
+    }
+  },
+  "menu": {
+    "pageTitle": "Speisekarte",
+    "pageSubtitle": "Entdecken Sie unsere Signature-Sandwiches, Charcuterie- und Käseplatten sowie unsere Auswahl aus dem Keller.",
+    "unavailableLabel": "Nicht verfügbar",
+    "sectionNavAriaLabel": "Navigation der Speisekartenbereiche"
+  },
+  "about": {
+    "title": "Unsere Geschichte",
+    "story": {
+      "paragraph1": "Wir haben Mow&apos;s Deli als Brücke zwischen New York und Toulouse gedacht, mit dem Wunsch, ehrliche, großzügige und charaktervolle Rezepte zu teilen.",
+      "paragraph2": "Wir wurden von Nachbarschaftstheken inspiriert, an denen man genauso zum Essen wie zum Austausch kommt, Gewohnheiten pflegt und neue Aromen entdeckt.",
+      "paragraph3": "Wir haben eine Feinkost nach unserem Bild aufgebaut, mit Produkten von Handwerkern und Häusern, die mit Anspruch und Aufrichtigkeit arbeiten.",
+      "paragraph4": "Wir haben uns in jedem Schritt für Qualität entschieden, vom Brot bis zum letzten Condiment, um das ganze Jahr über eine warme und konstante Erfahrung zu bieten."
+    },
+    "philosophy": {
+      "items": [
+        {
+          "title": "Qualität",
+          "text": "Wir wählen starke und geschmackvolle Zutaten, die täglich mit Sorgfalt zubereitet werden."
+        },
+        {
+          "title": "Herkunft",
+          "text": "Wir bevorzugen bekannte Produzenten und möglichst kurze Lieferketten."
+        },
+        {
+          "title": "Geselligkeit",
+          "text": "Wir pflegen eine einfache, lebendige und einladende Atmosphäre, vom Mittagessen bis zum Aperitif."
+        }
+      ]
+    },
+    "cta": "Besuchen Sie uns"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "infoTitle": "So finden Sie uns",
+    "hoursTitle": "Öffnungszeiten",
+    "hoursSummary": "Dienstag - Samstag · 10:00-19:00 · Toulouse",
+    "googleMapsLink": "Auf Google Maps ansehen",
+    "hours": {
+      "days": {
+        "monday": "Montag",
+        "tuesday": "Dienstag",
+        "wednesday": "Mittwoch",
+        "thursday": "Donnerstag",
+        "friday": "Freitag",
+        "saturday": "Samstag",
+        "sunday": "Sonntag"
+      }
+    },
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "message": "Nachricht",
+      "submit": "Senden",
+      "success": "Nachricht gesendet!",
+      "error": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
+    }
+  },
+  "epicerie": {
+    "title": "Feinkost",
+    "intro": "Wir wählen Feinkostprodukte aus, die eine Geschichte des Geschmacks erzählen, zwischen New-York-Klassikern und französischem Know-how.",
+    "categories": [
+      {
+        "title": "Amerikanische Importe",
+        "description": "Kultprodukte, die anderswo kaum zu finden sind, ausgewählt wegen ihrer Authentizität.",
+        "products": ["Brooklyn-Gurken", "Deli-Senf", "Handwerkliche Bagels"]
+      },
+      {
+        "title": "Charcuterie & Käse",
+        "description": "Eine Auswahl für die Theke, um Ihre Platten zu Hause zusammenzustellen.",
+        "products": ["Aufgeschnittenes Pastrami", "Gereifter Comté", "Trockensalami"]
+      },
+      {
+        "title": "Konserven & Condiments",
+        "description": "Gut gemachte Essentials, um Ihre Alltagsküche zu ergänzen.",
+        "products": ["Hausgemachte Cornichons", "Geräucherte BBQ-Sauce", "Handwerkliches Relish"]
+      },
+      {
+        "title": "Süße Feinkost",
+        "description": "Süßes für das Ende der Mahlzeit und charaktervolle Genussmomente.",
+        "products": ["Roggen-Cookies", "Saisonale Konfitüren", "Dunkler Schokoladen-Brownie"]
+      }
+    ],
+    "cta": {
+      "title": "Entdecken Sie unsere Auswahl im Laden"
+    }
+  },
+  "wines": {
+    "title": "Weine & Biere",
+    "intro": "Wir gestalten einen lebendigen Keller, der die Karte begleitet und vom Mittag bis zum Abend klare Pairings bietet.",
+    "wineListTitle": "Weinauswahl",
+    "beerListTitle": "Bierauswahl",
+    "pairings": [
+      {
+        "title": "Pastrami + Cabernet Franc",
+        "note": "Eine strukturierte und würzige Kombination, die die Fülle des Pastrami trägt."
+      },
+      {
+        "title": "Reuben + IPA",
+        "note": "Die kontrollierte Bitterkeit des IPA balanciert die Zartheit des Reuben."
+      },
+      {
+        "title": "Käseplatte + Orange Wine",
+        "note": "Ein texturiertes und aromatisches Duo, perfekt um den Service zu verlängern."
+      }
+    ]
+  },
+  "meta": {
+    "homeTitle": "Mow&apos;s Deli | New Yorker Deli in Toulouse",
+    "homeDescription": "Mow&apos;s Deli, Deli und Feinkost in Toulouse. Sandwiches, Charcuterie und Weine in einer Nachbarschaftsatmosphäre.",
+    "aboutTitle": "Unsere Geschichte | Mow&apos;s Deli",
+    "aboutDescription": "Entdecken Sie die Geschichte von Mow&apos;s Deli, zwischen New-York-Inspiration und Nachbarschaftsgeist in Toulouse.",
+    "menuTitle": "Speisekarte | Mow&apos;s Deli",
+    "menuDescription": "Entdecken Sie die Sandwiches, die Charcuterie und die saisonalen Auswahlen von Mow&apos;s Deli.",
+    "epicerieTitle": "Feinkost | Mow&apos;s Deli",
+    "epicerieDescription": "Entdecken Sie unsere Feinkostauswahl zwischen amerikanischen Produkten und lokalem Know-how.",
+    "winesTitle": "Weine & Biere | Mow&apos;s Deli",
+    "winesDescription": "Entdecken Sie unsere Auswahl an Naturweinen und Craft-Bieren, abgestimmt auf die Deli-Karte.",
+    "contactTitle": "Kontakt | Mow&apos;s Deli",
+    "contactDescription": "Finden Sie Mow&apos;s Deli in Toulouse: Adresse, Öffnungszeiten und Kontakt."
+  },
+  "footer": {
+    "tagline": "New Yorker Deli und Feinkost in Toulouse",
+    "addressLabel": "Adresse",
+    "hoursLabel": "Öffnungszeiten",
+    "hoursPlaceholder": "Dienstag - Samstag · 10:00-19:00",
+    "linksLabel": "Navigation",
+    "followUs": "Folgen Sie uns",
+    "legal": "Impressum",
+    "rights": "Alle Rechte vorbehalten."
+  }
+}
