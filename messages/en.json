@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "story": "Our story",
+    "epicerie": "Grocery",
+    "winesBeers": "Wines & Beers",
+    "contact": "Contact",
+    "legal": "Legal notice"
+  },
+  "home": {
+    "hero": {
+      "title": "The taste of a true New York deli in Toulouse",
+      "subtitle": "Signature sandwiches, fine charcuterie, and carefully sourced grocery products.",
+      "ctaMenu": "View menu",
+      "ctaFindUs": "Find us"
+    }
+  },
+  "meta": {
+    "homeTitle": "Mow's Deli | New York deli in Toulouse",
+    "homeDescription": "Mow's Deli, a deli and fine grocery in Toulouse. Sandwiches, charcuterie, and wines in a neighborhood atmosphere.",
+    "menuTitle": "Menu | Mow's Deli",
+    "menuDescription": "Discover sandwiches, charcuterie, and seasonal selections at Mow's Deli.",
+    "contactTitle": "Contact | Mow's Deli",
+    "contactDescription": "Find Mow's Deli in Toulouse: address, opening hours, and contact details."
+  },
+  "footer": {
+    "tagline": "New York deli and fine grocery in Toulouse",
+    "addressLabel": "Address",
+    "hoursLabel": "Opening hours",
+    "followUs": "Follow us",
+    "legal": "Legal notice",
+    "rights": "All rights reserved."
+  }
+}

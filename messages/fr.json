@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "menu": "Menu",
+    "story": "Notre histoire",
+    "epicerie": "Épicerie",
+    "winesBeers": "Vins & Bières",
+    "contact": "Contact",
+    "legal": "Mentions légales"
+  },
+  "home": {
+    "hero": {
+      "title": "Le goût d'un vrai deli new-yorkais à Toulouse",
+      "subtitle": "Sandwichs signatures, charcuterie fine et produits d'épicerie sélectionnés avec soin.",
+      "ctaMenu": "Voir la carte",
+      "ctaFindUs": "Nous trouver"
+    }
+  },
+  "meta": {
+    "homeTitle": "Mow's Deli | Deli New York à Toulouse",
+    "homeDescription": "Mow's Deli, deli et épicerie fine à Toulouse. Sandwichs, charcuterie et vins dans une ambiance de quartier.",
+    "menuTitle": "Menu | Mow's Deli",
+    "menuDescription": "Découvrez les sandwichs, la charcuterie et les sélections de saison de Mow's Deli.",
+    "contactTitle": "Contact | Mow's Deli",
+    "contactDescription": "Retrouvez Mow's Deli à Toulouse : adresse, horaires et contact."
+  },
+  "footer": {
+    "tagline": "Deli new-yorkais et épicerie fine à Toulouse",
+    "addressLabel": "Adresse",
+    "hoursLabel": "Horaires",
+    "followUs": "Suivez-nous",
+    "legal": "Mentions légales",
+    "rights": "Tous droits réservés."
+  }
+}
