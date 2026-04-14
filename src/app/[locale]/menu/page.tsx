@@ -1,6 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 
-import { menuSections } from '@/data/menu';
+import { getMenuSections } from '@/lib/getMenu';
 import { MenuSection } from '@/components/menu/MenuSection';
 import { MenuSectionNav } from '@/components/menu/MenuSectionNav';
 
@@ -29,6 +29,7 @@ export const generateMetadata = async ({ params }: MenuPageProps) => {
 export default async function MenuPage({ params }: MenuPageProps) {
   const { locale } = await params;
   const tMenu = await getTranslations({ locale, namespace: 'menu' });
+  const menuSections = await getMenuSections();
 
   return (
     <div className="min-h-screen bg-brand-cream pb-16">

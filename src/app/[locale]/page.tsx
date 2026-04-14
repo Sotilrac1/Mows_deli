@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 import { ChefHat, Sandwich, Wine } from 'lucide-react';
 
-import { menuSections } from '@/data/menu';
+import { getMenuSections } from '@/lib/getMenu';
 
 type HomePageProps = {
   params: Promise<{ locale: string }>;
@@ -49,6 +49,7 @@ const getMenuItemDescription = (locale: string, descriptionFr?: string, descript
 export default async function HomePage({ params }: HomePageProps) {
   const { locale } = await params;
   const tHome = await getTranslations({ locale, namespace: 'home' });
+  const menuSections = await getMenuSections();
 
   const featuredItems = menuSections
     .flatMap((section) => section.items)
