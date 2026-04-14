@@ -69,9 +69,112 @@
     "unavailableLabel": "Unavailable",
     "sectionNavAriaLabel": "Menu section navigation"
   },
+  "about": {
+    "title": "Our Story",
+    "story": {
+      "paragraph1": "We created Mow&apos;s Deli as a bridge between New York and Toulouse, with a desire to share bold, generous recipes full of character.",
+      "paragraph2": "We were inspired by neighborhood counters where people come to eat, talk, keep traditions, and discover new flavors.",
+      "paragraph3": "We built a fine grocery concept in our own style, with products sourced from artisans and houses that work with care and honesty.",
+      "paragraph4": "We choose quality at every step, from bread to the final condiment, to offer a warm and consistent experience all year long."
+    },
+    "philosophy": {
+      "items": [
+        {
+          "title": "Quality",
+          "text": "We choose strong, flavorful ingredients and prepare them with care every day."
+        },
+        {
+          "title": "Sourcing",
+          "text": "We prioritize trusted producers and short supply chains whenever possible."
+        },
+        {
+          "title": "Hospitality",
+          "text": "We build a simple, lively, and welcoming atmosphere from lunch through evening service."
+        }
+      ]
+    },
+    "cta": "Come and visit us"
+  },
+  "contact": {
+    "title": "Contact",
+    "infoTitle": "Find us",
+    "hoursTitle": "Opening hours",
+    "hoursSummary": "Tuesday - Saturday · 10am-7pm · Toulouse",
+    "googleMapsLink": "View on Google Maps",
+    "hours": {
+      "days": {
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursday": "Thursday",
+        "friday": "Friday",
+        "saturday": "Saturday",
+        "sunday": "Sunday"
+      }
+    },
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send",
+      "success": "Message sent!",
+      "error": "Something went wrong. Please try again."
+    }
+  },
+  "epicerie": {
+    "title": "Grocery",
+    "intro": "We curate grocery products that tell a story of flavor, balancing New York essentials with French craft.",
+    "categories": [
+      {
+        "title": "American Imports",
+        "description": "Cult favorites selected for authenticity and consistency.",
+        "products": ["Brooklyn pickles", "Deli mustard", "Artisan bagels"]
+      },
+      {
+        "title": "Charcuterie & Cheeses",
+        "description": "Counter selections to build generous boards at home.",
+        "products": ["Sliced pastrami", "Aged Comte", "Dry sausage"]
+      },
+      {
+        "title": "Preserves & Condiments",
+        "description": "Well-crafted staples that complete everyday deli cooking.",
+        "products": ["House pickles", "Smoked BBQ sauce", "Artisan relish"]
+      },
+      {
+        "title": "Sweet Grocery",
+        "description": "Dessert staples and snack-time treats with personality.",
+        "products": ["Rye cookies", "Seasonal jams", "Dark chocolate brownie"]
+      }
+    ],
+    "cta": {
+      "title": "Come discover our selection in store"
+    }
+  },
+  "wines": {
+    "title": "Wines & Beers",
+    "intro": "We build a lively cellar designed to support the menu and create direct pairings from lunch to late service.",
+    "wineListTitle": "Wine Selection",
+    "beerListTitle": "Beer Selection",
+    "pairings": [
+      {
+        "title": "Pastrami + Cabernet Franc",
+        "note": "A structured and spicy pairing that supports the richness of pastrami."
+      },
+      {
+        "title": "Reuben + IPA",
+        "note": "Balanced bitterness in the IPA cuts through the Reuben&apos;s richness."
+      },
+      {
+        "title": "Cheese Board + Orange Wine",
+        "note": "A textural, aromatic combination made for longer table moments."
+      }
+    ]
+  },
   "meta": {
     "homeTitle": "Mow's Deli | New York deli in Toulouse",
     "homeDescription": "Mow's Deli, a deli and fine grocery in Toulouse. Sandwiches, charcuterie, and wines in a neighborhood atmosphere.",
+    "aboutTitle": "Our Story | Mow's Deli",
+    "aboutDescription": "Discover Mow&apos;s Deli story, from New York inspiration to Toulouse neighborhood spirit.",
     "menuTitle": "Menu | Mow's Deli",
     "menuDescription": "Discover sandwiches, charcuterie, and seasonal selections at Mow's Deli.",
     "contactTitle": "Contact | Mow's Deli",

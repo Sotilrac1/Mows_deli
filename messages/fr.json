@@ -69,9 +69,112 @@
     "unavailableLabel": "Indisponible",
     "sectionNavAriaLabel": "Navigation des sections de la carte"
   },
+  "about": {
+    "title": "Notre Histoire",
+    "story": {
+      "paragraph1": "Nous avons imaginé Mow&apos;s Deli comme un pont entre New York et Toulouse, avec l&apos;envie de partager des recettes franches, généreuses et pleines de caractère.",
+      "paragraph2": "Nous avons été inspirés par les comptoirs de quartier où l&apos;on vient autant pour manger que pour discuter, retrouver des habitudes et découvrir de nouvelles saveurs.",
+      "paragraph3": "Nous avons construit une épicerie fine à notre image, avec des produits sélectionnés chez des artisans et des maisons qui travaillent avec exigence et sincérité.",
+      "paragraph4": "Nous avons fait le choix de la qualité à chaque étape, du pain au dernier condiment, pour proposer une expérience chaleureuse et constante tout au long de l&apos;année."
+    },
+    "philosophy": {
+      "items": [
+        {
+          "title": "Qualité",
+          "text": "Nous sélectionnons des ingrédients solides et savoureux, préparés avec rigueur chaque jour."
+        },
+        {
+          "title": "Provenance",
+          "text": "Nous privilégions des producteurs identifiés et des filières courtes dès que possible."
+        },
+        {
+          "title": "Convivialité",
+          "text": "Nous cultivons une atmosphère simple, vivante et accueillante, du déjeuner à l&apos;apéro."
+        }
+      ]
+    },
+    "cta": "Venez nous rendre visite"
+  },
+  "contact": {
+    "title": "Contact",
+    "infoTitle": "Nous trouver",
+    "hoursTitle": "Horaires",
+    "hoursSummary": "Mardi - Samedi · 10h-19h · Toulouse",
+    "googleMapsLink": "Voir sur Google Maps",
+    "hours": {
+      "days": {
+        "monday": "Lundi",
+        "tuesday": "Mardi",
+        "wednesday": "Mercredi",
+        "thursday": "Jeudi",
+        "friday": "Vendredi",
+        "saturday": "Samedi",
+        "sunday": "Dimanche"
+      }
+    },
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Envoyer",
+      "success": "Message envoyé !",
+      "error": "Une erreur est survenue. Merci de réessayer."
+    }
+  },
+  "epicerie": {
+    "title": "Épicerie",
+    "intro": "Nous sélectionnons des produits d&apos;épicerie qui racontent une histoire de goût, entre incontournables new-yorkais et savoir-faire français.",
+    "categories": [
+      {
+        "title": "Importations Américaines",
+        "description": "Des références cultes introuvables ailleurs, choisies pour leur authenticité.",
+        "products": ["Pickles de Brooklyn", "Moutarde deli", "Bagels artisanaux"]
+      },
+      {
+        "title": "Charcuterie & Fromages",
+        "description": "Une sélection de comptoir pour composer vos planches à la maison.",
+        "products": ["Pastrami tranché", "Comté affiné", "Saucisson sec"]
+      },
+      {
+        "title": "Conserves & Condiments",
+        "description": "Des essentiels bien faits pour compléter votre cuisine du quotidien.",
+        "products": ["Cornichons maison", "Sauce BBQ fumée", "Relish artisanale"]
+      },
+      {
+        "title": "Épicerie Sucrée",
+        "description": "Des douceurs de fin de repas et des pauses gourmandes de caractère.",
+        "products": ["Cookies au seigle", "Confitures de saison", "Brownie chocolat noir"]
+      }
+    ],
+    "cta": {
+      "title": "Venez découvrir notre sélection en boutique"
+    }
+  },
+  "wines": {
+    "title": "Vins & Bières",
+    "intro": "Nous construisons une cave vivante, pensée pour accompagner la carte et révéler des accords francs, du déjeuner au soir.",
+    "wineListTitle": "Sélection Vins",
+    "beerListTitle": "Sélection Bières",
+    "pairings": [
+      {
+        "title": "Pastrami + Cabernet Franc",
+        "note": "Un accord structuré et épicé qui soutient la richesse du pastrami."
+      },
+      {
+        "title": "Reuben + IPA",
+        "note": "L&apos;amertume maîtrisée de l&apos;IPA équilibre le fondant du Reuben."
+      },
+      {
+        "title": "Plateau Fromages + Vin Orange",
+        "note": "Un duo texturé et aromatique, parfait pour prolonger le service."
+      }
+    ]
+  },
   "meta": {
     "homeTitle": "Mow's Deli | Deli New York à Toulouse",
     "homeDescription": "Mow's Deli, deli et épicerie fine à Toulouse. Sandwichs, charcuterie et vins dans une ambiance de quartier.",
+    "aboutTitle": "Notre Histoire | Mow's Deli",
+    "aboutDescription": "Découvrez l&apos;histoire de Mow&apos;s Deli, entre inspiration new-yorkaise et esprit de quartier toulousain.",
     "menuTitle": "Menu | Mow's Deli",
     "menuDescription": "Découvrez les sandwichs, la charcuterie et les sélections de saison de Mow's Deli.",
     "contactTitle": "Contact | Mow's Deli",
